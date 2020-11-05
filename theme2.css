@@ -44,7 +44,6 @@ Y88888b         `888888888b,      `""""^                `Y8888888P'       d888I
                                   `"YY88888888888P'
                                        ^""""""""'
 */
-/* Don't touch this */
 
 html {
     font-size: var(--font-size) !important;
@@ -1756,10 +1755,6 @@ padding: 0 !important;
 .typeMacOS-3EmCyP {
     background: var(--main-transparency);
 }
-body>div:last-of-type {
-    background: var(--background-image) !important;
-    background-size: cover !important;
-}
 
 .wrapper-21YSNc {
     position: relative;
@@ -2002,6 +1997,12 @@ body>div:last-of-type {
     flex-flow: row wrap;
 }
 
+.wrapper-1Rf91z .scroller-2TZvBN > div {
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+}
+
 .tutorialContainer-1v44GL {
     display: flex;
     justify-content: center;
@@ -2157,4 +2158,59 @@ body>div:last-of-type {
 
 .members-1998pB, .members-1998pB>div {
     background-color: transparent;
+}
+
+.searchResultMessage-1fxgXh.hit-1fVM9e {
+    box-shadow: none;
+    background-color: transparent;
+    border: none;
+}
+
+.searchResult-9tQ1uo:before {
+    background-image: none;
+}
+
+.searchResult-9tQ1uo:after {
+    background-image: none;
+}
+
+.channelName-1JRO3C {
+    background: transparent;
+}
+
+.theme-dark .wrapperAudio-1jDe0Q {
+    border: none;
+    background-color: rgba(0,0,0,.4);
+}
+
+.wrapper-3vR61M {
+    background-color: transparent;
+}
+
+.wrapper-1F5TKx {
+    background-color: transparent;
+}
+
+.auto-Ge5KZx::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-bar-color);
+}
+
+.auto-Ge5KZx::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.textarea-2r0oV8:focus {
+    background-color: transparent;
+}
+
+.theme-dark .wrapper-1-Fsb8 {
+    background-color: rgba(0,0,0,0.6);
+}
+
+.inspector-S2gM3e {
+    background-color: transparent;
+}
+
+.tree-3tCaw8 {
+    outline: none;
 }

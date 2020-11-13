@@ -44,6 +44,8 @@ Y88888b         `888888888b,      `""""^                `Y8888888P'       d888I
                                   `"YY88888888888P'
                                        ^""""""""'
 */
+/* Don't touch this */
+
 html {
     font-size: var(--font-size) !important;
 }
@@ -2212,4 +2214,28 @@ padding: 0 !important;
 
 .tree-3tCaw8 {
     outline: none;
+}
+
+.container-3w7J-x {
+    background-color: transparent;
+}
+
+.name-3l27Hl.container-2ax-kl {
+    color: var(--main-color);
+}
+
+.modeSelected-346R90 .name-23GUGE, .modeConnected-3IsKId .name-23GUGE {
+    color: var(--selected-text-voice-color);
+}
+
+.modeMuted-onO3r-:hover .name-23GUGE, .wrapper-2jXpOf:hover .name-23GUGE {
+    color: var(--channel-hover-text-color);
+}
+
+.modeUnread-1qO3K1 .name-23GUGE {
+    color: var(--unread-text-color);
+}
+
+.unread-2lAfLh {
+    background-color: var(--unread-text-color);
 }

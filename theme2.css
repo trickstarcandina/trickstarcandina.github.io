@@ -44,7 +44,6 @@ Y88888b         `888888888b,      `""""^                `Y8888888P'       d888I
                                   `"YY88888888888P'
                                        ^""""""""'
 */
-
 html {
     font-size: var(--font-size) !important;
 }
@@ -1764,10 +1763,6 @@ padding: 0 !important;
 .theme-dark .member-3W1lQa:hover {
     background-color: rgba(79,84,92,0.4);
     color: #fff;
-}
-
-.base-3dtUhz {
-    left: 126px;
 }
 
 .app-2rEoOp {

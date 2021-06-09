@@ -1999,6 +1999,10 @@ padding: 0 !important;
     flex-flow: row wrap;
 }
 
+.wrapper-3NnKdC .scroller-1Bvpku,
+.folder-1hbNCn, 
+.expandedFolderBackground-1cujaW {background-color:transparent!important}
+
 .tutorialContainer-2sGCg9 {
     display: flex;
     justify-content: center;

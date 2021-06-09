@@ -45,6 +45,10 @@ Y88888b         `888888888b,      `""""^                `Y8888888P'       d888I
                                        ^""""""""'
 */
 
+/*
+one column
+*/
+
 html {
     font-size: var(--font-size) !important;
 }
@@ -1968,6 +1972,10 @@ padding: 0 !important;
     flex-direction: column;
     flex-flow: row wrap;
 }
+
+.wrapper-3NnKdC .scroller-1Bvpku,
+.folder-1hbNCn, 
+.expandedFolderBackground-1cujaW {background-color:transparent!important}
 
 .tutorialContainer-2sGCg9 {
     display: flex;

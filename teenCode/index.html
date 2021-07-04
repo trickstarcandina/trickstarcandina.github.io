@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Chuyển tin nhắn sang dạng icon</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/gh/thekondrashov/ie10-viewport@1.0/css/ie10-viewport.min.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container col-md-8 col-md-offset-2">
+            <div class="header clearfix">
+                <nav>
+                    <ul class="nav nav-pills pull-right">
+                        <li role="presentation" class="active">
+                            <a class="btn btn-default" data-toggle="modal" data-target="#myModal" href="#">Thông tin web</a>
+                        </li>
+                    </ul>
+                    <h4 class="text-muted">Chuyển tin nhắn sang dạng icon</h4>
+                </nav>
+            </div>
+            <div class="form-group">
+                <label for="origin-text" id="typeConvert">Nhập đoạn văn bản cần chuyển đổi: (Loại dịch: Tin nhắn ---> icon)</label>
+                <textarea class="form-control" rows="8" id="origin-text" style="font-size: 13pt ; font-family:Segoe UI Emoji"></textarea>
+            </div>
+            
+        <div class="intercom-composer-popover intercom-composer-emoji-popover">
+            <div class="intercom-emoji-picker">
+                <div class="intercom-composer-popover-header">
+                    <input class="intercom-composer-popover-input" placeholder="Nhập chữ cái để tìm icon" value="">
+                </div>
+                <div class="intercom-composer-popover-body-container">
+                    <div class="intercom-composer-popover-body">
+                        <div class="intercom-emoji-picker-groups">
+                            <div class="intercom-emoji-picker-group" >
+                                <span class="intercom-emoji-picker-emoji" title="Aa">😀</span>
+                                <span class="intercom-emoji-picker-emoji" title="Bb">😃</span>
+                                <span class="intercom-emoji-picker-emoji" title="Cc">😁</span>
+                                <span class="intercom-emoji-picker-emoji" title="Dd">😅</span>
+                                <span class="intercom-emoji-picker-emoji" title="Ee">🥰</span>
+                                <span class="intercom-emoji-picker-emoji" title="Ff">🤣</span>
+                                <span class="intercom-emoji-picker-emoji" title="Gg">🥲</span>
+                                <span class="intercom-emoji-picker-emoji" title="Hh">☺️</span>
+                                <span class="intercom-emoji-picker-emoji" title="Ii">😊</span>
+                                <span class="intercom-emoji-picker-emoji" title="Kk">😇</span>
+                                <span class="intercom-emoji-picker-emoji" title="Ll">😉</span>
+                                <span class="intercom-emoji-picker-emoji" title="Mm">😒</span>
+                                <span class="intercom-emoji-picker-emoji" title="Nn">😞</span>
+                                <span class="intercom-emoji-picker-emoji" title="Oo">😙</span>
+                                <span class="intercom-emoji-picker-emoji" title="Pp">😟</span>
+                                <span class="intercom-emoji-picker-emoji" title="Qq">😕</span>
+                                <span class="intercom-emoji-picker-emoji" title="Rr">🙂</span>
+                                <span class="intercom-emoji-picker-emoji" title="Ss">🙃</span>
+                                <span class="intercom-emoji-picker-emoji" title="Tt">☹️</span>
+                                <span class="intercom-emoji-picker-emoji" title="Uu">😡</span>
+                                <span class="intercom-emoji-picker-emoji" title="Vv">😍</span>
+                                <span class="intercom-emoji-picker-emoji" title="Xx">😩</span>
+                                <span class="intercom-emoji-picker-emoji" title="Yy">😭</span>
+                                <span class="intercom-emoji-picker-emoji" title="Ww">😳</span>
+                                <span class="intercom-emoji-picker-emoji" title="Zz">😠</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="intercom-composer-popover-caret"></div>
+        </div>
+            <div class="form-group">
+                <label for="converted-text">Kết quả:</label>
+                <button style="margin-bottom:0.5rem;" id="copy-result" class="btn btn-default">Sao chép</button>
+                <button style="margin-bottom:0.5rem;" id="transTypeBtn" class="btn btn-default">Chuyển loại dịch</button>
+                <button id="emoji-picker" class="chat-input-tool" title="Xh"> 
+                <svg preserveAspectRatio="xMidYMid" viewBox="0 0 24 24" style="width: 30px; height: 18px;">
+                    <path d="M12 24C5.38 24 0 18.62 0 12S5.38 0 12 0s12 5.38 12 12-5.38 12-12 12zm0-22C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-2.9 0-5.56-1.75-6.9-4.57-.24-.5-.03-1.1.47-1.33.5-.24 1.1-.03 1.33.47C7.9 16.67 9.86 18 12 18c2.15 0 4.1-1.3 5.1-3.43.23-.5.83-.7 1.33-.47.5.23.7.83.47 1.33C17.58 18.25 14.93 20 12 20zm4-8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm-8 0c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z" fill="#fff"></path>
+                </svg>
+            </button>
+                <textarea readonly="true" class="form-control" rows="8" id="converted-text" style="font-size: 15pt ; font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols"></textarea>
+            </div>
+            <footer class="footer">
+                <p>
+                    Viết bởi <a href="https://www.facebook.com/Trickstar9586/">Trickstar</a>
+                    .
+                </p>
+            </footer>
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Giới thiệu về trang web</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>P/s: Không hiểu sao trong ghi chú không có chữ "j" trong khi vẫn có 2 chữ "w" và "z". <a href="https://raw.githubusercontent.com/quyt0/txt-icon/main/note.txt">Chi tiết xem tại đây</a> </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Đóng</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="aa6269d4c73e18d55fc89e7f-text/javascript"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" type="aa6269d4c73e18d55fc89e7f-text/javascript"></script>
+            <script src="https://cdn.jsdelivr.net/gh/thekondrashov/ie10-viewport@1.0/js/ie10-viewport.min.js" type="aa6269d4c73e18d55fc89e7f-text/javascript"></script>
+            <script type="text/javascript" src="script.js"></script>
+            <script type="text/javascript" src="emoji.js"></script>
+            <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="aa6269d4c73e18d55fc89e7f-|49" defer=""></script>
+    </body>
+</html>

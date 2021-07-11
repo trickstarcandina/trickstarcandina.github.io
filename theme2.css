@@ -1326,6 +1326,10 @@ padding: 0 !important;
     background: rgba(0,0,0,.8);
 }
 
+.emojiItemDisabled-1FvFuF {
+    filter: grayscale(0%);
+}
+
 .theme-dark .pageWrapper-1PgVDX {
     background-color: var(--main-transparency);
 }
@@ -2324,4 +2328,14 @@ padding: 0 !important;
 
 .theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {
     background-color: rgba(0,0,0,0.8);
+}
+
+[href^="https://discord.com/channels/"] {
+    line-height:0;
+    font-size:0;
+}
+[href^="https://discord.com/channels/"]::before {
+    content:'Jump to Message';
+    font-size:16px;
+    font-weight:700;
 }

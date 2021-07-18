@@ -114,7 +114,7 @@
 		4.	SEARCHBARS
 		5.	TAGS
 		6.	SCROLLBARS
-		7.  ICONS
+		7.	ICONS
 	16. GUILDLISTING
 	17. LINKMSG
 */
@@ -5789,7 +5789,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 }
 
 /* ~~~~		16.		GUILDLISTING					~~~~ */
-
+/* 
 .wrapper-3NnKdC .scroller-1Bvpku > div.listItem-GuPuDH:nth-child(1) {
     width: 100% !important;
     margin-bottom: 8px;
@@ -5826,7 +5826,6 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
     right: 3px !important;
     width: 48px;
     height: 48px !important;
-    /* remove the left to right display transformation */
     transform: none !important;
 }
 .pill-31IEus {
@@ -6416,8 +6415,8 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 
 .theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {
     background-color: rgba(0,0,0,0.8);
-}
-
+} 
+*/
 /* ~~~~		17.		LINKMSG					~~~~ */
 
 [href^="https://discord.com/channels/"] {

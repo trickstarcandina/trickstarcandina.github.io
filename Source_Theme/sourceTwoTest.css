@@ -1,3 +1,45 @@
+.theme-light, .theme-dark {
+	--text-positive: rgb(var(--successcolor));
+	--text-warning: rgb(var(--warningcolor));
+	--text-danger: rgb(var(--dangercolor));
+	--info-positive-background: rgba(var(--successcolor),.1);
+	--info-positive-foreground: rgb(var(--successcolor));
+	--info-positive-text: #fff;
+	--info-warning-background: rgba(var(--warningcolor),.1);
+	--info-warning-foreground: rgb(var(--warningcolor));
+	--info-warning-text: #fff;
+	--info-danger-background: rgba(var(--dangercolor),.1);
+	--info-danger-foreground: rgb(var(--dangercolor));
+	--info-danger-text: #fff;
+	--status-positive-background: rgb(var(--successcolor));
+	--status-positive-text: #fff;
+	--status-warning-background: rgb(var(--warningcolor));
+	--status-warning-text: #fff;
+	--status-danger-background: rgb(var(--dangercolor));
+	--status-danger-text: #fff;
+	--header-primary: rgb(var(--textbrightest));
+	--header-secondary: rgb(var(--textbright));
+	--text-normal: rgb(var(--textbrighter));
+	--text-muted: rgb(var(--textdarker));
+	--channels-default: rgb(var(--textdark));
+	--interactive-normal: rgb(var(--textbright));
+	--interactive-hover: rgb(var(--textbrighter));
+	--interactive-active: rgb(var(--textbrightest));
+	--interactive-muted: rgb(var(--textdarkest));
+	--logo-primary: rgb(var(--textbrightest));
+	--background-accent: rgba(var(--transparencycolor), .1);
+	--background-primary: rgba(var(--transparencycolor), .2);
+	--background-secondary: rgba(var(--transparencycolor), .3);
+	--background-secondary-alt: rgba(var(--transparencycolor), .35);
+	--background-tertiary: rgba(var(--transparencycolor), .4);
+	--background-floating: rgba(var(--transparencycolor), .5);
+	--background-modifier-accent: rgba(var(--textbrightest),.1);
+	--elevation-low: 0 1px 5px 0 rgba(var(--transparencycolor), .3);
+	--elevation-high: 0 2px 10px 0 rgba(var(--transparencycolor), .3);
+	--font-primary: var(--font) !important;
+	--font-display: var(--font) !important;
+}
+
 /*
 	1.	TRANSPARENCY
 	2.	BACKGROUND
@@ -75,48 +117,6 @@
 	16. GUILDLISTING
 	17. LINKMSG
 */
-
-.theme-light, .theme-dark {
-	--text-positive: rgb(var(--successcolor));
-	--text-warning: rgb(var(--warningcolor));
-	--text-danger: rgb(var(--dangercolor));
-	--info-positive-background: rgba(var(--successcolor),.1);
-	--info-positive-foreground: rgb(var(--successcolor));
-	--info-positive-text: #fff;
-	--info-warning-background: rgba(var(--warningcolor),.1);
-	--info-warning-foreground: rgb(var(--warningcolor));
-	--info-warning-text: #fff;
-	--info-danger-background: rgba(var(--dangercolor),.1);
-	--info-danger-foreground: rgb(var(--dangercolor));
-	--info-danger-text: #fff;
-	--status-positive-background: rgb(var(--successcolor));
-	--status-positive-text: #fff;
-	--status-warning-background: rgb(var(--warningcolor));
-	--status-warning-text: #fff;
-	--status-danger-background: rgb(var(--dangercolor));
-	--status-danger-text: #fff;
-	--header-primary: rgb(var(--textbrightest));
-	--header-secondary: rgb(var(--textbright));
-	--text-normal: rgb(var(--textbrighter));
-	--text-muted: rgb(var(--textdarker));
-	--channels-default: rgb(var(--textdark));
-	--interactive-normal: rgb(var(--textbright));
-	--interactive-hover: rgb(var(--textbrighter));
-	--interactive-active: rgb(var(--textbrightest));
-	--interactive-muted: rgb(var(--textdarkest));
-	--logo-primary: rgb(var(--textbrightest));
-	--background-accent: rgba(var(--transparencycolor), .1);
-	--background-primary: rgba(var(--transparencycolor), .2);
-	--background-secondary: rgba(var(--transparencycolor), .3);
-	--background-secondary-alt: rgba(var(--transparencycolor), .35);
-	--background-tertiary: rgba(var(--transparencycolor), .4);
-	--background-floating: rgba(var(--transparencycolor), .5);
-	--background-modifier-accent: rgba(var(--textbrightest),.1);
-	--elevation-low: 0 1px 5px 0 rgba(var(--transparencycolor), .3);
-	--elevation-high: 0 2px 10px 0 rgba(var(--transparencycolor), .3);
-	--font-primary: var(--font) !important;
-	--font-display: var(--font) !important;
-}
 
 /* ~~~~		1.		TRANSPARENCY					~~~~ */
 

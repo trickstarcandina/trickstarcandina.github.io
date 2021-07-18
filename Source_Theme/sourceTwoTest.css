@@ -5907,6 +5907,10 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
     border-radius: 100%;
 }
 
+.scroller-2FKFPG > .listItem-GuPuDH:first-child > .listItemWrapper-3X98Pc > .wrapper-25eVIn > svg {
+    opacity: 0;
+}
+
 .theme-dark .button-OhfaWu, .theme-light .button-OhfaWu {
     background-color: #2f3136;
     background-image: var(--friends-icon);
@@ -5921,10 +5925,22 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
     border-radius: 100%;
 }
 
+.tutorialContainer-2sGCg9 .listItem-GuPuDH .listItemWrapper-3X98Pc .wrapper-25eVIn svg {
+    opacity: 0;
+}
+
 .tutorialContainer-2sGCg9 .listItem-GuPuDH .listItemWrapper-KhRmzM .wrapper-1BJsBx {
     background: var(--friends-icon) !important;
     background-position: var(--friends-icon-position) !important;
     background-repeat: no-repeat !important;
     background-size: var(--friends-icon-zoom) !important;
     border-radius: 100%;
+}
+
+.tutorialContainer-2sGCg9 .listItem-GuPuDH .listItemWrapper-KhRmzM .wrapper-1BJsBx .childWrapper-anI2G9 {
+	background-color: transparent;
+}
+
+.tutorialContainer-2sGCg9 .listItem-GuPuDH .listItemWrapper-KhRmzM .wrapper-1BJsBx svg {
+    opacity: 0;
 }

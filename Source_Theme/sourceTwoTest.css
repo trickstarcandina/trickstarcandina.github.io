@@ -323,12 +323,12 @@ body::after {
 
 /* ~~~~		4.		GUILDLIST						~~~~ */
 
-.childWrapper-anI2G9,										/* homebutton/acronym	innerwrap							*/
-#bd-pub-button {											/* publicbutton			innerwrap							*/
-	background-color: rgba(var(--transparencycolor), .3);
-	color: var(--text-normal);
-	font-weight: 500;
-}
+/*.childWrapper-anI2G9,										 homebutton/acronym	innerwrap							*/
+/*#bd-pub-button {											 publicbutton			innerwrap							*/
+	/* background-color: rgba(var(--transparencycolor), .3); */
+	/* color: var(--text-normal); */
+	/* font-weight: 500; */
+/* } */
 .wrapper-1BJsBx:hover .childWrapper-anI2G9,
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
 #bd-pub-button:hover {
@@ -5896,6 +5896,8 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 .moreUsers-7v8yWY {
 	background: rgba(var(--transparencycolor), .5);
 }
+
+/* ~~~~		16.		FriendsIcons							~~~~ */
 
 .scroller-2FKFPG > .listItem-GuPuDH:first-child > .listItemWrapper-3X98Pc > .wrapper-25eVIn {
     background: var(--friends-icon) !important;

@@ -114,6 +114,7 @@
 		4.	SEARCHBARS
 		5.	TAGS
 		6.	SCROLLBARS
+		7.  ICONS
 	16. GUILDLISTING
 	17. LINKMSG
 */
@@ -5769,6 +5770,22 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 .none-2Eo-qx::-webkit-scrollbar-track,
 .none-2Eo-qx::-webkit-scrollbar {
 	display: none;
+}
+
+/* ----		15.7.	ICONS							---- */
+
+.emptySearchImage-1qOMLW,									/* empty search												*/
+.image-1GzsFd {												/* no peoples/webhooks/etc.									*/
+	opacity: 0.6;
+}
+
+#app-mount .invalidPoop-pnUbq7 {							/* erroricon			invalidpoop							*/
+	background-color: rgba(var(--transparencycolor), .3);
+	opacity: 0.7;
+}
+#app-mount .guildIconExpired-2Qcq05 {						/* erroricon			expiredguild						*/
+	background-color: rgba(var(--transparencycolor), .3);
+	opacity: 0.7;
 }
 
 /* ~~~~		16.		GUILDLISTING					~~~~ */

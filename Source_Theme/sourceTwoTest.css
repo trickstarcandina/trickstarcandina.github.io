@@ -40,8 +40,6 @@
 	--font-display: var(--font) !important;
 }
 
-
-/* ~~~~		0.		TABLE OF CONTENTS				~~~~ */
 /*
 	1.	TRANSPARENCY
 	2.	BACKGROUND
@@ -121,22 +119,6 @@
 		7.	SCROLLBARS
 		8.	NOTIFICATIONBAR
 		9.	TOOLTIPS
-	16.	BDSUPPORT
-	17.	POWERCORDSUPPORT
-	18.	PLUGINSUPPORT
-		1.	BDFDB
-		2.	DATEVIEWER
-		3.	MEMBERCOUNT
-		4.	LINENUMBERS
-		5.	PERMISSIONVIEWER
-		6.	DIRECTDOWNLOAD
-		7.	BETTERFORMATINGREDUX
-		8.	CHANNELHISTORY
-		9.	CHANNELTABS
-		10.	TYPINGINDICATOR
-		11.	BADGESEVERYWHERE
-	19.	UPDATENOTICE
-	20.	WATERMARK
 */
 
 
@@ -362,7 +344,7 @@ body::after {
 
 .guildIconUnavailable-3IYARS,								/* guilderror			miniicon							*/
 .guildsError-g6NwOI {										/* guilderror			innerwrap							*/
-	background-color: rgba(var(--dangercolor)),.3);
+	background-color: rgba(var(--dangercolor),.3);
 }
 
 .dragInner-Oq_toX {											/* dragplaceholder											*/
@@ -471,6 +453,29 @@ body::after {
 .channelNotice-3DDmsB,
 #app-mount .channelNotice-3hkOiI {
 	background: transparent;
+}
+.channelNotice-1-XFjC.invite-OjTXrW::before {
+	opacity: 0.6;
+	background: url(https://discord.com/assets/bf625d222187f542b9d7179109422e2c.svg) center 20px no-repeat;
+}
+.channelNotice-1-XFjC.guildMFAWarning-3GEzs8::before {
+	opacity: 0.6;
+	background: url(https://discord.com/assets/916a384814e3bbd2a84e2a1b352a17c3.svg) center 20px no-repeat;
+}
+.channelNotice-1-XFjC.quickswitcher-35bYg4::before {
+	opacity: 0.6;
+}
+.channelNotice-1-XFjC.maxMembersCount-3E4zND::before {
+	opacity: 0.6;
+	background: url(https://discord.com/assets/01f60394adffda20dc7270a1e3c727df.svg) center 16px no-repeat;
+}
+.channelNotice-3DDmsB::before {
+	opacity: 0.6;
+	background: url(https://discord.com/assets/1858873f28bdc62dfb3a1f4b67d459bf.svg) center top 20px/153px no-repeat;
+}
+#app-mount .channelNotice-3hkOiI::before {
+	opacity: 0.6;
+	background: url(https://discord.com/assets/7065587bd42fd829925bf6aa4b36f5e2.svg) center top 22px/220px no-repeat;
 }
 
 /* ----		5.2.	CHANNELS						---- */
@@ -1141,6 +1146,22 @@ body::after {
 	background-color: rgba(var(--transparencycolor), .5);
 }
 
+.icon-2Po-VO[style*="/assets/5da4cdab01d4d89c593c48c62ae0d937.svg"] {		/* systemmessage			pinicon									*/
+	-webkit-mask: url(https://discord.com/assets/5da4cdab01d4d89c593c48c62ae0d937.svg) center/cover no-repeat;
+	background: var(--channels-default) !important;
+}
+.icon-2Po-VO[style*="/assets/d80d1fdc43a3c42134a31a39581160ac.svg"] {		/* systemmessage			missedcall								*/
+	-webkit-mask: url(https://discord.com/assets/d80d1fdc43a3c42134a31a39581160ac.svg) center/cover no-repeat;
+	background: var(--channels-default) !important;
+}
+.icon-2Po-VO[style*="/assets/b8029fe196b8f1382e90bbe81dab50dc.svg"] {		/* systemmessage			joincallicon							*/
+	-webkit-mask: url(https://discord.com/assets/b8029fe196b8f1382e90bbe81dab50dc.svg) center/cover no-repeat;
+	background: rgb(var(--accentcolor)) !important;
+}
+.icon-2Po-VO[style*="/assets/c30220457097b064286a8759a9b6c4af.svg"] {		/* systemmessage			recievecallicon							*/
+	-webkit-mask: url(https://discord.com/assets/c30220457097b064286a8759a9b6c4af.svg) center/cover no-repeat;
+	background: rgb(var(--accentcolor)) !important;
+}
 
 /* ====		6.2.2.	EMBEDS							==== */
 
@@ -1494,7 +1515,7 @@ body::after {
 	background-color: rgba(var(--transparencycolor), .6);
 }
 .controlButton-2MhVEL.leaveButton-2YnTyt {
-	background-color: rgba(var(--dangercolor)),.5);
+	background-color: rgba(var(--dangercolor),.5);
 }
 .controlButton-2MhVEL.leaveButton-2YnTyt:hover {
 	background-color: rgb(var(--dangercolor));
@@ -1625,7 +1646,7 @@ body::after {
 }
 
 
-/* ~~~~		7.		STORE/NITRO						~~~~ */
+/* ~~~~		8.		STORE/NITRO						~~~~ */
 
 .gridItemBadge-1Se-Pu {
 	text-shadow: 1px 1px var(--textshadow);
@@ -1868,6 +1889,12 @@ body::after {
 #app-mount .applicationSubText-2V8LSK {						/* library				application subtext					*/
 	color: var(--text-muted);
 }
+
+#app-mount .emptyWumpus-12J3jI {							/* library				no games							*/
+	background: url(https://discord.com/assets/131dcaaa628405e6d0ebee7708111c7a.svg);
+	opacity: 0.6;
+}
+
 
 /* ~~~~		10.		DISCOVERY						~~~~ */
 

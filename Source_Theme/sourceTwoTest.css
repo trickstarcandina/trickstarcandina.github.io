@@ -5978,7 +5978,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 }
 .item-2hkk8m {
     animation: var(--unread-server-animation) 3s linear infinite;
-    border: 2px solid var(--main-color);
+    border: 2px solid var(--accentcolor);
     background: transparent;
     border-radius: 100%;
     display: block;

@@ -629,7 +629,7 @@ body::after {
 }
 
 .theme-dark .container-1ETFDs.unread-2OHH1w:before {
-    background: rgb(128, 177, 28);
+    background: var(--main-color);
     animation: var(--unread-server-animation) 3s linear infinite;
 }
 
@@ -678,7 +678,7 @@ body::after {
 }
 
 .theme-dark .unread-2OHH1w:before {
-    background: rgb(128, 177, 28) !important;
+    background: var(--main-color) !important;
     animation: var(--unread-server-animation) 3s linear infinite;
 }
 
@@ -712,7 +712,7 @@ body::after {
 
 .item-2hkk8m {
     animation: var(--unread-server-animation) 3s linear infinite;
-    border: 2px solid rgb(128, 177, 28);
+    border: 2px solid var(--main-color);
     background: transparent;
     border-radius: 100%;
     display: block;

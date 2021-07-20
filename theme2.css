@@ -1,5 +1,5 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
-@import url(https://trickstarcandina.github.io/Source_Theme/sourceTwo.css);
+@import url(https://trickstarcandina.github.io/Source_Theme/sourceTwoTest.css);
 
 :root{
     --usechatbubbles: calc(var(--messagetransparency) / (var(--messagetransparency) + 0.00000000000000000000001));
@@ -14,8 +14,9 @@
     --font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
     --textshadow: transparent;
   
+    --main-color2:  56, 69, 9;
     --accentcolor2: var(--main-color);
-    --mentioncolor: var(--main-color);
+    --mentioncolor: 97, 118, 9;
     --linkcolor: var(--main-color);
     --successcolor: 59, 165, 92;
     --warningcolor: 250, 166, 26;

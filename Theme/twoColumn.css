@@ -1,7 +1,12 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 @import url(https://trickstarcandina.github.io/Source_Theme/sourceTwoColumn.css);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
 
-:root{
+:root {
+	  --settingsmodalbackground: 	transparent;		
+	  --settingsmodalwidth: 		1080px;					
+	  --settingsmodalheight: 		600px;						
+
     --usechatbubbles: calc(var(--messagetransparency) / (var(--messagetransparency) + 0.00000000000000000000001));
   
     /* Độ sáng tối của nền 0 -> 1 */

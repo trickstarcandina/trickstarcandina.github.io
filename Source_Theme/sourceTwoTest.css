@@ -303,7 +303,7 @@ body::after {
 }
 
 body::before {
-    background: var(--background) var(--backgroundposition)/var(--backgroundsize);
+    background: var(--background-image) var(--backgroundposition)/var(--backgroundsize);
 }
 
 body::after {
@@ -329,7 +329,7 @@ body::after {
 .container-16j22k::before,
 .layer-3QrUeG~.layer-3QrUeG::before,
 .root-3R2ngo::before {
-    background: var(--background) var(--backgroundposition)/var(--backgroundsize);
+    background: var(--background-image) var(--backgroundposition)/var(--backgroundsize);
     background-attachment: fixed;
 }
 
@@ -517,7 +517,7 @@ body::after {
 	z-index: -1;
 }
 .bar-30k2ka:not(.mention-1f5kbO)::before {
-	background: var(--background) var(--backgroundposition)/var(--backgroundsize);
+	background: var(--background-image) var(--backgroundposition)/var(--backgroundsize);
 	background-attachment: fixed;
 }
 .bar-30k2ka:not(.mention-1f5kbO)::after {
@@ -1244,7 +1244,7 @@ body::after {
 }
 
 .content-1o0f9g::before {
-    background: var(--background) var(--backgroundposition)/var(--backgroundsize);
+    background: var(--background-image) var(--backgroundposition)/var(--backgroundsize);
     background-attachment: fixed;
 }
 
@@ -1288,7 +1288,7 @@ body::after {
 }
 
 .jumpToPresentBar-G1R9s6::before {
-    background: var(--background) var(--backgroundposition)/var(--backgroundsize);
+    background: var(--background-image) var(--backgroundposition)/var(--backgroundsize);
     background-attachment: fixed;
 }
 
@@ -2774,7 +2774,7 @@ body::after {
 }
 
 .header-39GIC8::before {
-    background: var(--background) var(--backgroundposition)/var(--backgroundsize);
+    background: var(--background-image) var(--backgroundposition)/var(--backgroundsize);
     background-attachment: fixed;
 }
 
@@ -3492,7 +3492,7 @@ body::after {
     bottom: 0;
     right: 0;
     left: 0;
-    background: var(--background) var(--backgroundposition)/var(--backgroundsize);
+    background: var(--background-image) var(--backgroundposition)/var(--backgroundsize);
     background-attachment: fixed;
     pointer-events: none;
     z-index: -1;
@@ -3621,7 +3621,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
 }
 
 .header-2mZ9Ov::before {
-    background: var(--background) var(--backgroundposition)/var(--backgroundsize);
+    background: var(--background-image) var(--backgroundposition)/var(--backgroundsize);
     background-attachment: fixed;
 }
 

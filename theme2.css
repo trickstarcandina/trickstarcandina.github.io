@@ -1,5 +1,5 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
-@import url(https://trickstarcandina.github.io/Source_Theme/sourceTwoTest.css);
+@import url(https://trickstarcandina.github.io/Source_Theme/sourceTwo.css);
 
 :root{
     --usechatbubbles: calc(var(--messagetransparency) / (var(--messagetransparency) + 0.00000000000000000000001));

@@ -1380,12 +1380,12 @@ body::after {
 
 .message-2qnXI6.replying-1x3H0T {
     /* message				replying							*/
-    background-image: linear-gradient(rgba(var(--main-color), calc(0.2 * (1 - var(--usechatbubbles)))), rgba(var(--main-color), calc(0.2 * (1 - var(--usechatbubbles)))));
+    background-image: linear-gradient(rgba(var(--main-color2), calc(0.2 * (1 - var(--usechatbubbles)))), rgba(var(--main-color2), calc(0.2 * (1 - var(--usechatbubbles)))));
 }
 
 .message-2qnXI6.mentioned-xhSam7 {
     /* message				mentioned							*/
-    background-image: linear-gradient(rgba(var(--mentioncolor), calc(0.2 * (1 - var(--usechatbubbles)))), rgba(var(--main-color), calc(0.2 * (1 - var(--usechatbubbles)))));
+    background-image: linear-gradient(rgba(var(--mentioncolor), calc(0.2 * (1 - var(--usechatbubbles)))), rgba(var(--main-color2), calc(0.2 * (1 - var(--usechatbubbles)))));
 }
 
 .message-2qnXI6.ephemeral-1PsL1r::before,
@@ -1585,7 +1585,7 @@ body::after {
 #app-mount .ephemeral-1PsL1r.cozy-3raOZG .header-23xsNx::after,
 #app-mount .replying-1x3H0T.cozy-3raOZG .header-23xsNx::after,
 #app-mount .mentioned-xhSam7.cozy-3raOZG .header-23xsNx::after {
-    border-right-color: rgba(var(--main-color), calc(var(--messagetransparency) * 100000000000000000000000000000));
+    border-right-color: rgba(var(--main-color2), calc(var(--messagetransparency) * 100000000000000000000000000000));
 }
 
 .message-2DieIs,
@@ -1679,7 +1679,7 @@ body::after {
 }
 
 .reaction-1hd86g.reactionMe-wv5HKu {
-    background-color: rgba(var(--main-color), .8);
+    background-color: rgba(var(--main-color2), .8);
 }
 
 .reaction-1hd86g.reactionMe-wv5HKu:hover {
@@ -2969,7 +2969,7 @@ body::after {
 }
 
 #app-mount .closeButton-1tv5uR:hover {
-    background-color: rgba(var(--main-color), .2);
+    background-color: rgba(var(--main-color2), .2);
     border-color: var(--header-secondary);
 }
 
@@ -3000,7 +3000,7 @@ body::after {
 }
 
 #app-mount .closeButtonBold-8kKURP:hover {
-    background-color: rgba(var(--main-color), .4);
+    background-color: rgba(var(--main-color2), .4);
     border-color: var(--text-normal);
 }
 
@@ -5715,7 +5715,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
 .item-1tOPte.colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O)[id="user-settings-cog-Subscriptions"],
 .item-1tOPte.colorDefault-2K3EoJ.focused-3afm-j[id="user-settings-cog-Discord_Nitro"],
 .item-1tOPte.colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O)[id="user-settings-cog-Discord_Nitro"] {
-    background-color: rgba(var(--main-color), .2) !important;
+    background-color: rgba(var(--main-color2), .2) !important;
 }
 
 .item-1tOPte.colorPremium-p4p7qO.focused-3afm-j,

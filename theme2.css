@@ -14,7 +14,9 @@
     --font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
     --textshadow: transparent;
   
-    --main-color2:  56, 69, 9;
+    --accentcolor: 0, 0, 0;
+
+    --main-color2:  56, 69, 9; /* react color */
     --accentcolor2: var(--main-color);
     --mentioncolor: 97, 118, 9;
     --linkcolor: var(--main-color);

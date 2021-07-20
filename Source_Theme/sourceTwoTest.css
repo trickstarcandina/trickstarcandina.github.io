@@ -953,7 +953,7 @@ body::after {
 
 .modeSelected-346R90 .content-1x5b-n,
 .modeSelected-346R90:hover .content-1x5b-n {
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
     text-shadow: 1px 1px var(--textshadow);
 }
 
@@ -1031,7 +1031,7 @@ body::after {
 }
 
 .selected-aXhQR6.channel-2QD9_O .layout-2DM8Md {
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
     text-shadow: 1px 1px var(--textshadow);
 }
 
@@ -1063,7 +1063,7 @@ body::after {
 
 .button-14-BFJ.enabled-2cQ-u7:hover {
     opacity: 1;
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
 }
 
 .button-14-BFJ.enabled-2cQ-u7:hover svg {
@@ -1080,7 +1080,7 @@ body::after {
 
 .button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp,
 .button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp:hover {
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
     text-shadow: 1px 1px var(--textshadow);
 }
 
@@ -1140,7 +1140,7 @@ body::after {
 
 #app-mount .searchFilter-2ESiM3,
 #app-mount .searchAnswer-3Dz2-q {
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
     text-shadow: 1px 1px var(--textshadow);
 }
 
@@ -1163,7 +1163,7 @@ body::after {
 
 .button-18p_f6:hover {
     /* welcomemessage		edit channel						*/
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
     color: var(--interactive-active);
     text-shadow: 1px 1px var(--textshadow);
 }
@@ -1390,11 +1390,11 @@ body::after {
 
 .message-2qnXI6.ephemeral-1PsL1r::before,
 .message-2qnXI6.replying-1x3H0T::before {
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
 }
 
 .message-2qnXI6.mentioned-xhSam7::before {
-    background-color: rgb(var(--mentioncolor));
+    background-color: var(--mentioncolor);
 }
 
 .message-2qnXI6.mentioned-xhSam7 .contents-2mQqc9 .messageContent-2qWWxC {
@@ -1658,7 +1658,7 @@ body::after {
 
 .blob-2w7iIK {
     /* message				loading blob						*/
-    background: rgb(var(--main-color));
+    background: var(--main-color);
 }
 
 .expanded-13sWhZ {
@@ -1683,7 +1683,7 @@ body::after {
 }
 
 .reaction-1hd86g.reactionMe-wv5HKu:hover {
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
 }
 
 .reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV {
@@ -1833,13 +1833,13 @@ body::after {
 .icon-2Po-VO[style*="/assets/b8029fe196b8f1382e90bbe81dab50dc.svg"] {
     /* systemmessage			joincallicon							*/
     -webkit-mask: url(https://discord.com/assets/b8029fe196b8f1382e90bbe81dab50dc.svg) center/cover no-repeat;
-    background: rgb(var(--main-color)) !important;
+    background: var(--main-color) !important;
 }
 
 .icon-2Po-VO[style*="/assets/c30220457097b064286a8759a9b6c4af.svg"] {
     /* systemmessage			recievecallicon							*/
     -webkit-mask: url(https://discord.com/assets/c30220457097b064286a8759a9b6c4af.svg) center/cover no-repeat;
-    background: rgb(var(--main-color)) !important;
+    background: var(--main-color) !important;
 }
 
 
@@ -2009,11 +2009,11 @@ body::after {
 
 .toolbar-2bjZV7 {
     /* textarea				formattoolbar						*/
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
 }
 
 .toolbar-2bjZV7::before {
-    border-top-color: rgb(var(--main-color));
+    border-top-color: var(--main-color);
 }
 
 .divider-24xeUg {
@@ -2083,7 +2083,7 @@ body::after {
 }
 
 .theme-brand .autocomplete-1vrmpx {
-    background: rgb(var(--main-color)) linear-gradient(rgba(var(--main-transparency), .2), rgba(var(--main-transparency), .2)) !important;
+    background: var(--main-color) linear-gradient(rgba(var(--main-transparency), .2), rgba(var(--main-transparency), .2)) !important;
 }
 
 .theme-brand .autocomplete-1vrmpx::before,
@@ -2125,7 +2125,7 @@ body::after {
 /* autocomplete			category selected					*/
 
 #app-mount .selected-3xBBKs:hover {
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
 }
 
 #app-mount .selected-3xBBKs svg {
@@ -2151,7 +2151,7 @@ body::after {
 }
 
 .selected-aXhQR6.member-3-YXUe .layout-2DM8Md {
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
     text-shadow: 1px 1px var(--textshadow);
 }
 
@@ -2193,7 +2193,7 @@ body::after {
 
 #app-mount .tab-2j5AEF.selected-2LAck8 {
     /* searchpage			selected tab						*/
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
     text-shadow: 1px 1px var(--textshadow);
 }
 
@@ -2213,7 +2213,7 @@ body::after {
 }
 
 .button-11zvza:hover {
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
     text-shadow: 1px 1px var(--textshadow);
 }
 
@@ -2308,7 +2308,7 @@ body::after {
 
 .centerButton-3CaNcJ:hover,
 .colorable-1bkp8v.primaryDark-3mSFDl:hover {
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
 }
 
 .button-3HqqDX {
@@ -2363,7 +2363,7 @@ body::after {
 
 .tileContainer-BaRAZF:hover {
     /* call					podium participant				*/
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
 }
 
 .container-1EOCj2 {
@@ -2412,7 +2412,7 @@ body::after {
 }
 
 .peopleListItem-2nzedh .actionButton-uPB8Fs:hover {
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
 }
 
 .peopleListItem-2nzedh .actionButton-uPB8Fs:hover svg {
@@ -2860,7 +2860,7 @@ body::after {
 }
 
 .categoryItem-1QIroW.selectedCategoryItem-FHKU_o .itemInner-gPkiWb {
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
     text-shadow: 1px 1px var(--textshadow);
 }
 
@@ -2935,7 +2935,7 @@ body::after {
 .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
 .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover,
 .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
     color: #fff;
     text-shadow: 1px 1px var(--textshadow);
 }
@@ -3140,7 +3140,7 @@ body::after {
 }
 
 .accountBtn-2Nozo3 .accountBtnInner-sj5jLs:hover {
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
 }
 
 .connection-1fbD7X {
@@ -3590,7 +3590,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
 
 .passthrough-1c2ewQ.selected-2YhbGh {
     /* rolesettings			permissions passthrough selected	*/
-    background: rgb(var(--main-color));
+    background: var(--main-color);
 }
 
 .icon-3_8HGa {
@@ -3645,7 +3645,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
 }
 
 .roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) .circleButton-3RB01i:hover {
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
 }
 
 .roleRow-30TwGe:before,
@@ -4912,7 +4912,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
 
 .tag-2gHSR7 {
     /* modal				added user						*/
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
     color: #fff;
     text-shadow: 1px 1px var(--textshadow);
 }
@@ -5151,7 +5151,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
     -webkit-mask: url(https://discord.com/assets/94ff6fdc535b6ecb7b1bc54f2dd56a10.svg);
 }
 
@@ -5213,7 +5213,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
 }
 
 .barSecondary-3B1aP2 {
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
 }
 
 .wrapper-3nSjSv .heading-4znNKq {
@@ -5276,7 +5276,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
 
 .icon-TYbVk4:hover {
     /* prebuy popout		amount icon							*/
-    background: rgb(var(--main-color));
+    background: var(--main-color);
 }
 
 .upsellFooter-6EgwMe {
@@ -5532,7 +5532,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
 }
 
 .checkboxWrapper-SkhIWG.row-3QHy4I.checked-3_4uQ9 {
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
 }
 
 .checkboxWrapper-SkhIWG.row-3QHy4I.checked-3_4uQ9 .colorStandard-2KCXvj {
@@ -5630,7 +5630,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
 /* popout				combobox selected					*/
 
 .selected-2114Fj:hover {
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
     color: #fff;
     text-shadow: 1px 1px var(--textshadow);
 }
@@ -5729,7 +5729,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
 
 #app-mount .item-1tOPte .checkbox-3s5GYZ {
     /* contextmenu			checkbox 							*/
-    color: rgb(var(--main-color));
+    color: var(--main-color);
 }
 
 #app-mount .item-1tOPte.colorDanger-2qLCe1 .checkbox-3s5GYZ {
@@ -5748,7 +5748,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
 }
 
 .button-F9qN4n:hover {
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
 }
 
 
@@ -5896,13 +5896,13 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
 }
 
 #app-mount .wumpusTooltip-mj7eo0 {
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
     color: #fff;
     text-shadow: 1px 1px var(--textshadow);
 }
 
 #app-mount .wumpusTooltip-mj7eo0::after {
-    border-color: transparent rgb(var(--main-color)) transparent transparent;
+    border-color: transparent var(--main-color) transparent transparent;
 }
 
 
@@ -5972,12 +5972,12 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
 
 .diversityEmojiItem-L6_IXw:hover {
     /* picker				diversityemoji						*/
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
 }
 
 .navButtonActive-1MkytQ {
     /* picker				navbuttonactive						*/
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
     color: #fff;
     text-shadow: 1px 1px var(--textshadow);
 }
@@ -6020,7 +6020,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
 /* picker				stickercategoryitem selected		*/
 
 .stickerCategorySelected-2uaMAG:hover {
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
 }
 
 .categoryItemDefaultCategorySelected-_HCKoz svg,
@@ -6095,7 +6095,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
 
 .emojiItem-14v6tW.emojiItemSelected-1aLkfV {
     /* picker				emoji selected						*/
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
 }
 
 .emojiItemDisabled-1FvFuF {
@@ -6120,7 +6120,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
 
 .stickerInspected-2EM4w- .stickerBackground-2XECKi {
     /* picker				sticker focused						*/
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
 }
 
 .viewAllBackground-3Bn1vh {
@@ -6330,7 +6330,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
 
 .jumpButton-2dvRSC:hover,
 .jumpButton-3DTcS_:hover {
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
 }
 
 .jumpButton-2dvRSC+.jumpButton-2dvRSC,
@@ -6357,7 +6357,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
 /* popout				active tab							*/
 
 #app-mount .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa {
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
 }
 
 .secondary-dIudih,
@@ -6504,7 +6504,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
 }
 
 #app-mount .option-96V44q.selected-rZcOL-::before {
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
     border-radius: 3px;
     width: 34px;
 }
@@ -7262,11 +7262,11 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
 
 ::selection {
     /* selection												*/
-    background: rgb(var(--main-color));
+    background: var(--main-color);
 }
 
 .highlight {
-    background: rgb(var(--main-color));
+    background: var(--main-color);
 }
 
 #app-mount .elevationLow-2lY09M,
@@ -7603,7 +7603,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
 }
 
 #app-mount .item-26Dhrx[aria-checked=true] .radioBar-bMNUI- {
-    background: rgb(var(--main-color));
+    background: var(--main-color);
 }
 
 #app-mount .item-26Dhrx[aria-checked=true] .radioBar-bMNUI- .radioIconForeground-XwlXQN {
@@ -7638,8 +7638,8 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
 
 #app-mount .checkbox-1ix_J3.checked-3_4uQ9.round-2jCFai {
     /* checkbox				roundchecked						*/
-    background-color: rgb(var(--main-color)) !important;
-    border-color: rgb(var(--main-color)) !important;
+    background-color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
 }
 
 #app-mount .checkbox-1ix_J3.checked-3_4uQ9.round-2jCFai svg {
@@ -7703,13 +7703,13 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
 
 #app-mount .bubble-3we2di {
     /* slider				bubble								*/
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
     color: #fff;
     text-shadow: 1px 1px var(--textshadow);
 }
 
 #app-mount .bubble-3we2di::before {
-    border-top-color: rgb(var(--main-color));
+    border-top-color: var(--main-color);
 }
 
 #app-mount .container-1nZlH6 {
@@ -7969,7 +7969,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
 #app-mount ::-webkit-scrollbar-thumb {
     border-radius: 10px;
     border: none;
-    background-color: rgb(var(--main-color)) !important;
+    background-color: var(--main-color) !important;
 }
 
 .none-2Eo-qx::-webkit-scrollbar-corner,
@@ -8031,7 +8031,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
 #app-mount .tooltipPrimary-1d1ph4,
 #app-mount .tooltipGrey-1hnvTt,
 #app-mount .tooltipBlack-PPG47z {
-    background-color: rgb(var(--main-color));
+    background-color: var(--main-color);
     color: #fff;
     text-shadow: 1px 1px var(--textshadow);
 }
@@ -8045,12 +8045,12 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {
 #app-mount .tooltipPrimary-1d1ph4 .tooltipPointer-3ZfirK,
 #app-mount .tooltipGrey-1hnvTt .tooltipPointer-3ZfirK,
 #app-mount .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
-    border-top-color: rgb(var(--main-color));
+    border-top-color: var(--main-color);
 }
 
 #app-mount .tooltipPointer-22Q7m0,
 #app-mount .tooltipPointer-1awMxk {
-    border-right-color: rgb(var(--main-color));
+    border-right-color: var(--main-color);
 }
 
 .emptyUser-7txhlW {

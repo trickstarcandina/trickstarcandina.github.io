@@ -20,6 +20,9 @@
     --textshadow: transparent;
   
     --accentcolor: 0, 0, 0;
+    
+    /* màu khi mình di chuột vào ví dụ như khi di chuyển vào icon server list */
+    --hover-color: rgb(0,0,0);
 
     --main-color2:  56, 69, 9; /* react color */
     --accentcolor2: var(--main-color);

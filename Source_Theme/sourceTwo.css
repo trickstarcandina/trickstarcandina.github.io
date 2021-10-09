@@ -2107,6 +2107,19 @@ padding: 0 !important;
     right: 3px;
 }
 
+/* Update  9/10/2021 */
+.listItem-1hlISG {
+    width: initial;
+}
+
+.tutorialContainer-2sGCg9 .wrapper-25eVIn .childWrapper-anI2G9 {
+    background: var(--friends-icon) !important;
+    background-position: var(--friends-icon-position) !important;
+    background-repeat: no-repeat !important;
+    background-size: var(--friends-icon-zoom) !important;
+    border-radius: 100%;
+}
+
 .wrapper-3NnKdC .scroller-1Bvpku > div[role="tree"] {
     display: flex;
     flex-direction: column;

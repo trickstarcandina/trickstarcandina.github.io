@@ -21,17 +21,17 @@
     /*
     Role Title Color
   */
-    --member-listing-role-color: var(--main-theme-color);
+    --member-listing-role-color: var(--main-color);
     /*
     Small User Popout
   */
-    --small-user-popout-background-image: var(--theme-background-image);
+    --small-user-popout-background-image: var(--background-image);
     --small-user-popout-background-transparency: rgba(0, 0, 0, 0.6);
     --small-user-popout-background-image-position: center;
     /*
     Big User Popout
   */
-    --big-user-popout-background-image: var(--theme-background-image);
+    --big-user-popout-background-image: var(--background-image);
     --big-user-popout-background-transparency: rgba(0, 0, 0, 0.6);
     --big-user-popout-background-image-position: center;
     /*
@@ -101,7 +101,7 @@
     --text-voice-channel-hover-color: #dcddde;
     --text-voice-channel-selected-text-color: #fff;
     --unread-text-channel-color: #fff;
-    --unread-text-channel-bubble-color: var(--main-theme-color);
+    --unread-text-channel-bubble-color: var(--main-color);
     /*
     Folders
   */

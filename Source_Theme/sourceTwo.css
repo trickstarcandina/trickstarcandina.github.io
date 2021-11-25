@@ -48,7 +48,61 @@ Y88888b         `888888888b,      `""""^                `Y8888888P'       d888I
 
 /*
 two column
-
+ 1. FRIENDS SIDEBAR 
+ 2. USER INFO 
+ 3. CHAT SIDER 
+ 4. CHAT BODY 
+ 5. CHAT MEMBERS 
+ 6. CHAT INPUT 
+ 7. SETTINGS 
+ 8. SETTINGS - PROFILE 
+ 9. CHAT SCROLLER 
+ 10. SCROLL THUMB 
+ 11. EMBEDS 
+ 12. DAY CONTAINER 
+ 13. ANNOYANCES 
+ 14. TWO COLUMNS 
+ 15. VIDEO / SCREEN BUTTONS 
+ 16. FRIEND ACTIVITY 
+ 17. FRIEND CALL/MESSAGE BUTTONS 
+ 18. Message Hover buttons 
+ 19. Context menu 
+ 20. Add Server / Discovery 
+ 21. Loading chat placeholder 
+ 22. Channel Limit 
+ 23. Background left 
+ 24. Background right 
+ 25. Info Modal 
+ 26. Channel category color 
+ 27. Member Role title color 
+ 28. Channel scroller 
+ 29. Small user popout 
+ 30. Regular Header 
+ 31. Gaming Header 
+ 32. Spotify Header 
+ 33. Add note 
+ 34. Big user popout 
+ 35. Default header 
+ 36. Header gamer 
+ 37. Header spotify 
+ 38. Upload Dialog 
+ 39. Role Listing 
+ 40. Moderation Listings 
+ 41. Uploaded file in chat 
+ 42. Mentions 
+ 43. Code Markup 
+ 44. Quote 
+ 45. Library page 
+ 46. Nitro page 
+ 47. Unread Message Divider 
+ 48. New Messages Bar 
+ 49. Emoji Menu 
+ 50. Search 
+ 51. unread text channel color 
+ 52. Unread text channel bubble 
+ 53. channel hover 
+ 54. Channel color 
+ 55. Folder colors 
 */
 
 .appMount-3lHmkl {
@@ -184,6 +238,9 @@ two column
     background-color: initial
 }
 
+
+/* 6. CHAT INPUT */
+
 .channelTextArea-rNsIhG {
     background-color: initial
 }
@@ -195,6 +252,9 @@ two column
 .theme-dark .form-2fGMdU:before {
     background: 0 0
 }
+
+
+/* 7. SETTINGS */
 
 .layer-3QrUeG {
     background-color: initial
@@ -216,6 +276,9 @@ two column
     background-color: initial
 }
 
+
+/* 8. SETTINGS - PROFILE */
+
 .background-1QDuV2 {
     background-color: initial
 }
@@ -224,23 +287,38 @@ two column
     background-color: initial
 }
 
+
+/* 9. CHAT SCROLLER */
+
 .auto-Ge5KZx::-webkit-scrollbar-track {
     background-color: initial
 }
 
+
+/* 10. SCROLL THUMB */
+
 .auto-Ge5KZx::-webkit-scrollbar-thumb {
     background-color: var(--scrollbar-color)
 }
+
+
+/* 11. EMBEDS */
 
 .embedFull-2tM8-- {
     border-left: 4px solid var(--main-color);
     background: var(--embed-background-transparency)
 }
 
+
+/* 12. DAY CONTAINER */
+
 .content-1o0f9g {
     color: var(--main-color);
     background: 0 0
 }
+
+
+/* 13. ANNOYANCES */
 
 .theme-dark .children-19S4PO:after {
     background: 0 0
@@ -249,6 +327,9 @@ two column
 .tree-3tCaw8 {
     outline: none
 }
+
+
+/* 14. TWO COLUMNS */
 
 .wrapper-3NnKdC {
     width: 126px
@@ -371,6 +452,9 @@ two column
     right: 5px
 }
 
+
+/* 15. VIDEO / SCREEN BUTTONS */
+
 .button-1YfofB.buttonColor-7qQbGO,
 .button-1YfofB .buttonColor-7qQbGO {
     background-color: var(--video-screen-button-background-color);
@@ -382,6 +466,9 @@ two column
     background-color: var(--video-screen-button-background-hovor-color);
     color: var(--video-screen-button-foreground-hovor-color)
 }
+
+
+/* 16. FRIEND ACTIVITY */
 
 .wrapper-3D2qGf {
     background-color: rgba(200, 200, 200, .1)
@@ -395,22 +482,37 @@ two column
     background: 0 0
 }
 
+
+/* 17. FRIEND CALL/MESSAGE BUTTONS */
+
 .actionButton-uPB8Fs {
     background-color: initial
 }
+
+
+/* 18. Message Hover buttons */
 
 .wrapper-2aW0bm {
     background-color: var(--message-hover-buttons-background)
 }
 
+
+/* 19. Context menu */
+
 .menu-3sdvDG {
     background: var(--context-menu-transparency)
 }
+
+
+/* 20. Add Server / Discovery */
 
 .circleIconButton-1QV--U {
     color: var(--add-discover-icon-color);
     background-color: var(--add-discover-icon-transparency)
 }
+
+
+/* 21. Loading chat placeholder */
 
 .wrapper-3vR61M {
     background-color: initial
@@ -420,13 +522,22 @@ two column
     background-color: initial
 }
 
+
+/* 22. Channel Limit*/
+
 .wrapper-2tAnRe {
     color: var(--channel-limit-count-color)
 }
 
+
+/* 23. Background left */
+
 .users-3kndPl {
     background-color: var(--channel-limit-background-left)
 }
+
+
+/* 24. Background right */
 
 .total-i6us2n:after {
     border-right-color: var(--channel-limit-background-left)
@@ -436,6 +547,9 @@ two column
     background-color: var(--channel-limit-background-right)
 }
 
+
+/* 25. Info Modal */
+
 .theme-dark .root-1gCeng {
     box-shadow: none
 }
@@ -444,6 +558,9 @@ two column
     background-color: initial;
     box-shadow: none
 }
+
+
+/* 26. Channel category color */
 
 .wrapper-PY0fhH {
     color: var(--main-color)
@@ -460,9 +577,15 @@ two column
     color: var(--category-hover-color)
 }
 
+
+/* 27. Member Role title color */
+
 .membersGroup-v9BXpm {
     color: var(--member-listing-role-color)
 }
+
+
+/* 28. Channel scroller */
 
 .thin-1ybCId::-webkit-scrollbar-track {
     border-color: transparent;
@@ -474,14 +597,23 @@ two column
     background-color: var(--scrollbar-color)
 }
 
+
+/* 29. Small user popout */
+
 .userPopout-xaxa6l {
     background-position: var(--small-user-popout-background-image-position);
     background-image: var(--small-user-popout-background-image)
 }
 
+
+/* 30. Regular Header */
+
 .theme-dark .headerNormal-1mX3KY {
     background-color: var(--small-user-popout-background-transparency)
 }
+
+
+/* 31. Gaming Header */
 
 .headerPlaying-j0WQBV {
     background: var(--small-user-popout-background-transparency)
@@ -491,6 +623,9 @@ two column
     background-color: initial;
     border-bottom: none
 }
+
+
+/* 32. Spotify Header */
 
 .headerSpotify-zpWxgT {
     background: var(--small-user-popout-background-transparency)
@@ -502,9 +637,15 @@ two column
     color: hsla(0, 0%, 100%, .8)
 }
 
+
+/* 33. Add note */
+
 .textarea-2r0oV8:focus {
     background-color: rgba(0, 0, 0, .4)
 }
+
+
+/* 34. Big user popout */
 
 .root-3QyAh1 {
     background-position: var(--big-user-popout-background-image-position);
@@ -512,13 +653,22 @@ two column
     background-color: initial
 }
 
+
+/* 35. Default header */
+
 .topSection-y3p-_D {
     background-color: var(--big-user-popout-background-transparency)
 }
 
+
+/* 36. Header gamer */
+
 .topSectionPlaying-1J5E4n {
     background: var(--big-user-popout-background-transparency)
 }
+
+
+/* 37. Header spotify */
 
 .topSectionSpotify-1lI0-P {
     background: var(--big-user-popout-background-transparency)
@@ -540,6 +690,9 @@ two column
     border-top: none
 }
 
+
+/* 38. Upload Dialog */
+
 .theme-dark .uploadModal-2ifh8j {
     background-color: rgba(20, 20, 20, .6);
     box-shadow: none
@@ -550,9 +703,15 @@ two column
     box-shadow: none
 }
 
+
+/* 39. Role Listing */
+
 .scroller-305q3I {
     background-color: initial
 }
+
+
+/* 40. Moderation Listings */
 
 .item-26Dhrx {
     background-color: initial
@@ -562,10 +721,16 @@ two column
     background-color: rgba(200, 200, 200, .1)
 }
 
+
+/* 41. Uploaded file in chat */
+
 .attachment-33OFj0 {
     border-color: transparent;
     background-color: rgba(0, 0, 0, .6)
 }
+
+
+/* 42. Mentions */
 
 .mentioned-xhSam7:before {
     background-color: var(--mention-sider)
@@ -581,14 +746,23 @@ two column
     background-color: var(--mention-hover-color)
 }
 
+
+/* 43. Code Markup */
+
 .markup-2BOw-j code {
     background: var(--code-markup-background-color);
     border: var(--code-markup-border)
 }
 
+
+/* 44. Quote */
+
 .blockquoteDivider-2hH8H6 {
     background-color: var(--main-color)
 }
+
+
+/* 45. Library page */
 
 .scroller-1IIF0A {
     background-color: initial
@@ -603,6 +777,9 @@ two column
     color: #f6f6f7;
     background-color: rgba(200, 200, 200, .2)
 }
+
+
+/* 46. Nitro page */
 
 .scroller-9moviB {
     background-color: initial
@@ -626,6 +803,9 @@ two column
     background-color: initial
 }
 
+
+/* 47. Unread Message Divider */
+
 .isUnread-3Ef-o9 {
     border-color: var(--unread-message-divider-color)
 }
@@ -640,6 +820,9 @@ two column
     fill: var(--unread-message-divider-color)
 }
 
+
+/* 48. New Messages Bar */
+
 .newMessagesBar-265mhP {
     background-color: var(--new-messages-bar-background-color)
 }
@@ -647,6 +830,9 @@ two column
 .newMessagesBar-265mhP button {
     color: var(--new-messages-bar-font-color)
 }
+
+
+/* 49. Emoji Menu */
 
 .contentWrapper-SvZHNd {
     background-color: var(--emoji-menu-background-color)
@@ -671,6 +857,9 @@ two column
 .container-2XeR5Z {
     background-color: var(--emoji-menu-search-bar-background-color)
 }
+
+
+/* 50. Search */
 
 .theme-dark .container-3ayLPN {
     background-color: var(--message-search-menu-background-color)
@@ -720,22 +909,37 @@ two column
     outline: none
 }
 
+
+/* 51. unread text channel color */
+
 .modeUnread-1qO3K1 .name-23GUGE {
     color: var(--unread-text-channel-color)
 }
 
+
+/* 52. Unread text channel bubble */
+
 .unread-2lAfLh {
     background-color: var(--unread-text-channel-bubble-color)
 }
+
+
+/* 53. channel hover */
 
 .modeMuted-onO3r-:hover .name-23GUGE,
 .wrapper-2jXpOf:hover .name-23GUGE {
     color: var(--text-voice-channel-hover-color)
 }
 
+
+/* 54. Channel color */
+
 .name-23GUGE {
     color: var(--text-voice-channel-color)
 }
+
+
+/* 55. Folder colors */
 
 .expandedFolderBackground-3ZDF05 {
     background-color: var(--expanded-folder-background-color)
@@ -744,6 +948,9 @@ two column
 .folder-2w6LX1 {
     background-color: var(--folder-background-color)
 }
+
+
+/* 56. Friend activity */
 
 .container-lRFx4q {
     background-color: initial

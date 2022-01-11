@@ -539,6 +539,10 @@ two column
 
 /* 26. Channel category color */
 
+.name-3BUDLf.container-q97qHp .overflow-1wOqNV {
+  color: var(--main-theme-color);
+}
+
 .wrapper-1S43wv {
   color: var(--main-color);
 }
@@ -1087,4 +1091,20 @@ html {
 
 .guildSeparator-a4uisj {
   background-color: transparent;
+}
+
+/* flash when changing channels */
+
+.wrapper-3HVHpV {
+  background-color: transparent;
+}
+
+.avatar-3QF_VA {
+  border: 8px solid transparent;
+  background-color: transparent;
+}
+
+.footer-3naVBw {
+  background-color: var(--small-user-popout-background-transparency);
+  margin-top: 0px;
 }

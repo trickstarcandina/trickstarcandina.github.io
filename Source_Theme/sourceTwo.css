@@ -295,14 +295,14 @@ two column
 /* 11. EMBEDS */
 
 .embedFull-1HGV2S {
-  border-left: 4px solid var(--main-theme-color);
+  border-left: 4px solid var(--main-color);
   background: var(--embed-background-transparency);
 }
 
 /* 12. DAY CONTAINER */
 
 .content-3spvdd {
-  color: var(--main-theme-color);
+  color: var(--main-color);
   background: transparent;
 }
 
@@ -540,11 +540,11 @@ two column
 /* 26. Channel category color */
 
 .wrapper-1S43wv {
-  color: var(--main-theme-color);
+  color: var(--main-color);
 }
 
 .mainContent-uDGa6R .container-36u7Lw {
-  color: var(--main-theme-color);
+  color: var(--main-color);
 }
 
 .wrapper-1S43wv.muted-19J0ih:hover .icon-3zI3d2,

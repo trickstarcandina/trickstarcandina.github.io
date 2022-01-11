@@ -6198,14 +6198,15 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 #app-mount .muteText-1DPH3L {
 	color: #bbb;
 }
+/* hover */
 #app-mount .tooltip-16UpTB,
 #app-mount .tooltip-1_vJJI,
 #app-mount .tooltipPrimary-3qLMbS,
 #app-mount .tooltipGrey-lpLZjh,
 #app-mount .tooltipBlack-vMYxvw {
-	background-color: var(--main-color);
-	color: #fff;
-	text-shadow: 1px 1px var(--textshadow);
+  background-color: var(--hover-color);
+  color: #fff;
+  text-shadow: 1px 1px var(--textshadow);
 }
 #app-mount .tooltipPrimary-3qLMbS .note-e4Jh6_,
 #app-mount .tooltipGrey-lpLZjh .note-e4Jh6_,
@@ -6215,7 +6216,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 #app-mount .tooltipPrimary-3qLMbS .tooltipPointer-3L49xb,
 #app-mount .tooltipGrey-lpLZjh .tooltipPointer-3L49xb,
 #app-mount .tooltipBlack-vMYxvw .tooltipPointer-3L49xb {
-	border-top-color: var(--main-color);
+  border-top-color: var(--hover-color);
 }
 #app-mount .tooltipPointer-1KkjI2,
 #app-mount .tooltipPointer-1awMxk {

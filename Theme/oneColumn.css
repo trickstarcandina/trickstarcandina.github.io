@@ -27,7 +27,7 @@
   /* màu khi mình di chuột vào ví dụ như khi di chuyển vào icon server list */
   --hover-color: rgb(0, 0, 0);
 
-  --main-color2: 56, 69, 9; /* react color */
+  --main-color2: 118, 145, 21; /* react color */
   --accentcolor2: var(--main-color);
   --mentioncolor: 97, 118, 9;
   --linkcolor: var(--main-color);

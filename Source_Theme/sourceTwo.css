@@ -1024,10 +1024,10 @@ html {
 }
 
 .tutorialContainer-1pL9QS .wrapper-28eC3z .childWrapper-1j_1ub {
-  background: var(--home-icon-image) !important;
-  background-position: var(--home-icon-image-position) !important;
+  background: var(--friends-icon) !important;
+  background-position: var(--friends-icon-position) !important;
   background-repeat: no-repeat !important;
-  background-size: var(--home-icon-image-zoom) !important;
+  background-size: var(--friends-icon-zoom) !important;
   border-radius: 100%;
 }
 
